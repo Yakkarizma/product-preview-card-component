@@ -115,6 +115,12 @@ h1,h2{
     width: 100%;
 }
 
+.btn img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
 .btn:hover{
     background-color: var(--yesil-700);
     cursor: pointer;
