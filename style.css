@@ -12,12 +12,16 @@ body{
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+}
+
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--krema);
     width: 100vw;
     height: 100vh;
+    padding: 20px;
 }
 
 :root{
@@ -30,7 +34,7 @@ body{
     --beyaz: hsl(0, 0%, 100%);
 }
 
-h1,h2,h3{
+h1,h2{
   font-family: "Fraunces", serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -42,7 +46,7 @@ h1,h2,h3{
 
 .icerik{
     background-color: var(--beyaz);
-    border-radius: 25px;
+    border-radius: 10px;
     overflow: hidden; 
     width: 800px;
     display: flex;
@@ -50,7 +54,7 @@ h1,h2,h3{
 }
 
 .urun-resmi{
-    width: 400px;
+    width: 50%;
 }
 
 .urun-resmi img{
@@ -59,7 +63,7 @@ h1,h2,h3{
 }
 
 .urun-bilgi{
-    width: 400px;
+    width: 50%;
     padding: 40px;
 }
 
@@ -107,7 +111,7 @@ h1,h2,h3{
     overflow: hidden;
     text-align: center;
     border-radius: 20px;
-    padding: 25px;
+    padding: 20px;
     width: 100%;
 }
 
@@ -116,4 +120,22 @@ h1,h2,h3{
     cursor: pointer;
     border: none;
     overflow: hidden;
+}
+
+@media(max-width:375px){
+    .icerik{
+        flex-direction: column;
+    }
+    .urun-resmi,.urun-bilgi{
+        width: 100%;
+    }
+    h1{
+       font-size: 29px; 
+    }
+    body{
+        font-size: 10px;
+    }
+    .urun-bilgi{
+        padding: 30px;
+    }
 }
