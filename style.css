@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--krema);
+    width: 100vw;
+    height: 100vh;
+}
+
+:root{
+    --yesil-500: hsl(158, 36%, 37%);
+    --yesil-700: hsl(158, 42%, 18%);
+
+    --siyah: hsl(212, 21%, 14%);
+    --gri: hsl(228, 12%, 48%);
+    --krema: hsl(30, 38%, 92%);
+    --beyaz: hsl(0, 0%, 100%);
+}
+
+h1,h2,h3{
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+.icerik{
+    background-color: var(--beyaz);
+    border-radius: 25px;
+    overflow: hidden; 
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
