@@ -24,6 +24,8 @@ This is a solution to the [Product Preview Card challenge on Frontend Mentor](ht
 - Solution URL: [https://github.com/Yakkarizma/product-preview-card-component]
 - Live Site URL: [https://yakkarizma.github.io/product-preview-card-component/]
 
+## My process
+
 ### Built with
 
 - Semantic HTML5 markup
