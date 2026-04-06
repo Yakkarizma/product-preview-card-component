@@ -9,7 +9,6 @@ This is a solution to the [Product Preview Card challenge on Frontend Mentor](ht
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -22,8 +21,8 @@ This is a solution to the [Product Preview Card challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Yakkarizma/product-preview-card-component)
-- Live Site URL: [Add live site URL here](https://yakkarizma.github.io/product-preview-card-component/)
+- Solution URL: [https://github.com/Yakkarizma/product-preview-card-component]
+- Live Site URL: [https://yakkarizma.github.io/product-preview-card-component/]
 
 ### Built with
 
